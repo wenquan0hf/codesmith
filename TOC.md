@@ -6,7 +6,7 @@
 - [基本语法-声明和使用属性](declaration-attributes.md)
 - [基本语法-转义 Asp.Net 标记](asp-net.md)
 - [CodeTemplate 对象](codetemplate-object.md)
-- [Progress 对象](progress-object.md)
+- [Progress 对象](progress.md)
 - [CodeTemplateInfo 对象](codetemplateinfo-object.md)
 - [引用其它文件或 .Net 类库](net.md)
 - [使用主从代码模板](master-slave.md)

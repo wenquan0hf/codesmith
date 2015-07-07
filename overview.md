@@ -68,7 +68,6 @@ foreach (var s in salesDataContext.Customer.ToList())
 
 使用 SalesDataContext 中 Customer 查询对象。然后枚举列表中每个 Customer 对象并打印出FirstName 和 Last Name.可以看到代码自动完成了对数据库的读取访问。
 
-
 ![第7张](images/7.png)
 
 由本例看到使用 CodeSmith 可以大大减轻手工代码量，其使用的一般步骤是
@@ -76,7 +75,6 @@ foreach (var s in salesDataContext.Customer.ToList())
 1. 选择使用合适的模板，CodeSmith 随开发包自带了大量常用的模板，如果找不到合适的模板，CodeSmith 支持自定义模板。
 2. 为模板选择合适的参数设置。
 3. 自动生成代码（可以为任意类型的代码，C#，Java, .XML 文本等）
-
 
 后面将详细介绍 CodeSmith 使用的基本方法，CodeSmith 的核心为模板，因此重点在模板的设计和使用。
 
